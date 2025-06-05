@@ -1,8 +1,8 @@
 body {
-  margin: 0;
+  margin:0;
   font-family: Arial, sans-serif;
   background-color: #BCE0D6;
-  
+  display: flex;
   align-items: center;
   justify-content: center;
   height: 100vh;
@@ -11,7 +11,7 @@ body {
 .container {
   background-color: #F2FDFB;
   padding: 20px;
-  width: 320px;
+  width: 350px;
   text-align: center;
   border-radius: 15px;
 }
@@ -27,24 +27,29 @@ p {
 
 input {
   width: 100%;
-  padding: 10px;
+  padding: 15px;
   margin-bottom: 12px;
   border: 1px solid #ccc;
   box-sizing: border-box;
+  border-radius: 15px;
 }
 
 button {
   width: 100%;
-  padding: 10px;
+  padding: 15px;
   background-color: #83C6A1;
   border: none;
   color: white;
   cursor: pointer;
+  border-radius: 15px;
+  font-size: 15px;
 }
 
 .signin-link {
   margin-top: 15px;
   font-size: 14px;
+    color: gray;
+
 }
 
 .signin-link a {
