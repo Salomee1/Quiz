@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "name": "Wireless Mouse",
+    "price": 19.99,
+    "description": "A smooth and responsive wireless mouse.",
+    "image": "https://m.media-amazon.com/images/I/61Mk3YqYHpL.jpg"
+  },
+  {
+    "id": 2,
+    "name": "USB-C Hub",
+    "price": 34.99,
+    "description": "Connect all your devices with this 6-in-1 hub.",
+    "image": "https://m.media-amazon.com/images/I/613X0BSpPEL._AC_UF1000,1000_QL80_.jpg"
+  }
+]
