@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Flask Shop</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <h1>🛍️ Flask Shop</h1>
+  <h2>📃 Products</h2>
+
+  <div class="product-grid">
+    {% for product in products %}
+      <div class="product-card">
+        <img src="{{ product.image }}" alt="{{ product.title }}">
+        <h3>{{ product.title }}</h3>
+        <p>${{ product.price }}</p>
+        <button>Add to Cart</button>
+      </div>
+    {% endfor %}
+  </div>
+
+</body>
+</html>
